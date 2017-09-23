@@ -17,3 +17,8 @@ plugins:
 extends:
  - airbnb
  - plugin:react/recommended
+
+rules:
+  import/extensions:
+    - off
+    - never

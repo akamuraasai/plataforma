@@ -71,7 +71,7 @@
       "^(?!.*\\.(js|jsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
     },
     "coveragePathIgnorePatterns": [
-      "src/index.js",
+      "src/index.jsx",
       "src/registerServiceWorker.js"
     ],
     "transformIgnorePatterns": [

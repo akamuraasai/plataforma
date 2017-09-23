@@ -26,6 +26,7 @@ ratings:
   - "**.jsx"
   - "**.scss"
 exclude_paths:
+  - config/**/*
   - lib/**/*
   - scripts/**/*
   - node_modules/**/*

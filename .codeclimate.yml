@@ -9,7 +9,7 @@ engines:
         - .jsx
     checks:
       import/no-duplicates:
-        enabled: false
+        enabled: true
       no-template-curly-in-string:
         enabled: false
       import/no-unresolved:

@@ -40,7 +40,8 @@
     "webpack": "3.5.1",
     "webpack-dev-server": "2.10.0",
     "webpack-manifest-plugin": "1.2.1",
-    "whatwg-fetch": "2.0.3"
+    "whatwg-fetch": "2.0.3",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "eslint-plugin-react": "^7.1.0"
@@ -49,7 +50,9 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "cc-report": "node scripts/report.js"
+    "cc-report": "node scripts/report.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "jest": {
     "collectCoverage": true,
@@ -96,5 +99,6 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "snyk": true
 }

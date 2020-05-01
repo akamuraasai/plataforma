@@ -41,7 +41,7 @@
     "webpack-dev-server": "3.1.2",
     "webpack-manifest-plugin": "1.2.1",
     "whatwg-fetch": "2.0.3",
-    "snyk": "^1.85.0"
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "eslint-plugin-react": "^7.1.0"
